@@ -14,7 +14,7 @@ function createWindow() {
 	})
 	mainWindow.setMenu(null)
 
-	mainWindow.loadFile('index.html')
+	mainWindow.loadFile(`${__dirname}/pages/index.html`)
 
 	// Start ioHook to get inputs
 	ioHook.start()
