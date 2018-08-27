@@ -1,4 +1,4 @@
-# Input Display for Magicforce 40% Keyboar
+# Input Display for Magicforce 40% Keyboard
 
 ![Input Display](https://i.imgur.com/FLrqafd.png)
 
