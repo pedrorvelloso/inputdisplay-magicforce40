@@ -1,0 +1,53 @@
+body {
+    background: #000;
+}
+
+#keyboard {
+    border: 1px solid rgb(47, 71, 180);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+
+#key {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(47, 71, 180);
+    float: left;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.esc, .backspace {
+    width: 80px !important;
+}
+
+.tab {
+    width: 91px !important;
+}
+
+.shift {
+    width: 109px !important;
+}
+
+.shiftm {
+    width: 127px !important;
+}
+
+.spacebar {
+    width: 155px !important;
+}
+
+.enter {
+    width: 130px !important;
+}
+
+.clear {
+    clear: both;
+}
