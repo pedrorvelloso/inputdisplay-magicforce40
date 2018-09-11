@@ -9,7 +9,7 @@ function createWindow() {
 		height: 400,
 		minWidth: 900,
 		minHeight: 304,
-		alwaysOnTop: true,
+		alwaysOnTop: false,
 		icon: `${__dirname}/icon.ico`
 	})
 	mainWindow.setMenu(null)
